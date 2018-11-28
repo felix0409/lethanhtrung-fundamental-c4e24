@@ -1,0 +1,4 @@
+1. 
+Use type(...) to check valuable's type.
+We will get SyntaxError when using the following names: 76alasdasd, abc$, lambda,...
+
