@@ -9,11 +9,11 @@ for i in range(0, len(flock)):
 print("Now my biggest sheep has size", biggest, end="")
 print(", let's shear it!")
 
-flock[flock.index(biggest)] = 8 #listindexfunc
+flock[flock.index(biggest)] = 8 #list index function
 print("After sheering, here is my flock:", flock)
 
 for i in range(1, 4):
-        after_flock = [x+(50*i) for x in flock]
+        after_flock = [x+(50*i) for x in flock]  #increase by 50 for each 
         print()
         print("MONTH",i)
         print("One month has passed, now here is my flock:",after_flock)
