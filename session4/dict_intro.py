@@ -11,14 +11,13 @@ person = {
     "city": "Hai Phong",
     "age": 25
 }
+del person["city"]
+print(person)
 
-print(person["name"])
-# print("name" in person) #check cai gi nam trong cai gi  #list cung lam duoc
-if "status" in person:
-    print("Yes")
-else: 
-    print("No")
+# person["age"] = 18
+# print(person["age"])
+# print(person)
 
-
-
-# => Ung dung lon nhat cua dictionary la de tra cuu.
+# person["age"] += 1
+# print(person["age"])
+# print(person)
